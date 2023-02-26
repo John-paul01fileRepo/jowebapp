@@ -24,7 +24,7 @@ pipeline{
       steps{
         sh "echo 'cloning the latest application version' "
       //  git credentialsId: 'GithubCred', url: 'https://github.com/JoetechDev/jowebapp.git' //Use your own github account link
-       git branch: 'master', credentialsId: 'GithubCred', url: 'https://github.com/jeaggrey/spring-boot-mongo-docker.git'
+       git branch: 'main', credentialsId: 'github', url: 'https://github.com/John-paul01fileRepo/jowebapp'
     //  git 'https://github.com/JoetechDev/jowebapp'
       }
     }
